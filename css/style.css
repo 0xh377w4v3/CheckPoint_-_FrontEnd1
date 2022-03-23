@@ -225,7 +225,7 @@ footer {
 @media only screen and (min-width: 375px) and (max-width: 767px) {
     header {
         display: flex;
-        height: 200px;
+        height: 250px;
         flex-direction: column;
         position: relative;
     }
@@ -239,7 +239,19 @@ footer {
         margin-left: 0%;
         padding: 20px;
     }
-  
+    .botao-superior {
+        height: 35px;
+        width: 100px;
+    }
+    .botao-superior:hover {
+        font-size: 16px;
+    }
+    .botao-text {
+        text-decoration: none;
+        font-weight: bold;
+        color: #ffffff;    
+        font-size: 15px;
+    }
     .container{
         flex-direction: column;
         
