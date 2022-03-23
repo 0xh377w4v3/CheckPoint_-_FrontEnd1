@@ -193,7 +193,19 @@ footer {
         margin-left: 0%;
         padding: 20px;
     }
-  
+    .botao-superior {
+        height: 35px;
+        width: 100px;
+    }
+    .botao-superior:hover {
+        font-size: 16px;
+    }
+    .botao-text {
+        text-decoration: none;
+        font-weight: bold;
+        color: #ffffff;    
+        font-size: 15px;
+    }
     .container{
         flex-direction: column;
         
