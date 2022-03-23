@@ -71,6 +71,7 @@ header {
     background-size: cover;
     height: 500px;
     width: 100%;
+    box-shadow: 0px 8px 15px 0px rgba(30,69,119,0.57);
 }
 .titulo {
     display: flex;
@@ -95,7 +96,6 @@ header {
     height: 695px;
     border-radius: 31px;
     background-color: #EAEAEA;
-    -webkit-box-shadow: 0px 8px 15px 0px rgba(30,69,119,0.57); 
     box-shadow: 0px 8px 15px 0px rgba(30,69,119,0.57);
 }
 .tesouras {
@@ -136,7 +136,6 @@ h2 {
 }
 .frame {
     border-radius: 30px;
-    -webkit-box-shadow: 0px 8px 15px 0px rgba(30,69,119,0.57); 
     box-shadow: 0px 8px 15px 0px rgba(30,69,119,0.57);
 
 }
