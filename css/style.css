@@ -66,7 +66,7 @@ header {
     align-items: center;
 }
 .banner {
-    background-image: url("/img/Catedral_de_Brasília.jpg");
+    background-image: url("/img/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -133,9 +133,6 @@ h2 {
     padding: 50px;
     justify-content: center;
     display: flex;
-    -webkit-user-select: text;
-    -webkit-user-drag: auto;
-    
 }
 .frame {
     border-radius: 30px;
@@ -153,6 +150,7 @@ footer {
     box-shadow: 0 8px 30px -4px rgb(0 0 0 / 57%);
 }
 .footer-list {
+    padding: 15px;
     gap: 100px;
     display: flex;
     flex-direction: row;
@@ -163,14 +161,14 @@ footer {
     display: flex;
 }
 .linkedin {
-    background-image: url("/img/LinkedIn_Logo.svg.png");
+    background-image: url("/img/linkedin.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 119px;
     height: 30px;
 }
 .github {
-    background-image: url("/img/GitHub_Logo.png");
+    background-image: url("/img/github.png");
     width: 119px;
     height: 34px;
     background-size: cover;
@@ -201,7 +199,7 @@ footer {
         
     }
     .banner {
-        background-image: url("/img/Catedral_de_Brasília.jpg");
+        background-image: url("/img/banner.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         height: 200px;
@@ -222,8 +220,4 @@ footer {
     .videoframe {
         padding: 20px;
     }
-    footer {
-        height: 80px;
-    }
-   
 }
