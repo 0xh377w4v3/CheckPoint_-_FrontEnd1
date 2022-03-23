@@ -161,14 +161,14 @@ footer {
     display: flex;
 }
 .linkedin {
-    background-image: url("/img/linkedin.png");
+    background-image: url("./img/linkedin.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 119px;
     height: 30px;
 }
 .github {
-    background-image: url("/img/github.png");
+    background-image: url("./img/github.png");
     width: 119px;
     height: 34px;
     background-size: cover;
@@ -199,7 +199,7 @@ footer {
         
     }
     .banner {
-        background-image: url("/img/banner.jpg");
+        background-image: url("./img/banner.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         height: 200px;
